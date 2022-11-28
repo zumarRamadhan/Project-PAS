@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 ::-webkit-scrollbar{
     width: 10px;
     height: 20px;
@@ -20,12 +24,56 @@
     background-color: #eee;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+nav{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.135);
+}
+
+#dashboard{
+    background: url(/assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
 }
 
 nav{
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.079);
+    position: fixed;
+}
+
+.navigasi{
+    justify-content: right;
+}
+
+.title-dashboard{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 60px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.453);
+}
+
+.jumbotron{
+    background-color: #eee;
+}
+
+.gambar{
+    transition: 0.5s ease-in;
+    filter: grayscale(100%);
+    box-shadow: none;
+}
+
+.gambar:hover{
+    transform: scale(1.02);
+    filter: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.135);
 }
 
 .card{
@@ -60,10 +108,6 @@ nav{
 
 .diskon{
     margin-top: 350px;
-}
-
-.jumbotron{
-    background-color: #eee;
 }
 
 .promo{
