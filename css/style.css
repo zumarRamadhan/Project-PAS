@@ -62,11 +62,14 @@ nav{
 .gambar{
     transition: 0.5s ease-in;
     filter: grayscale(100%);
+    box-shadow: none;
 }
 
 .gambar:hover{
     transform: scale(1.02);
     filter: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.135);
 }
 
 .card{
@@ -85,5 +88,52 @@ nav{
 }
 
 .produk:hover{
-    transform: translateY(-10px);
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+.img-promo{
+    width: 500px;
+    height: auto;
+    z-index: 10;
+    display: flex;
+    float: right;
+    margin-top: -160px;
+    margin-right: 100px;
+}
+
+.diskon{
+    margin-top: 350px;
+}
+
+.promo{
+    margin-top: -150px;
+}
+
+.btn{
+    background-color: #E0C28D;
+    color: white;
+    border-radius: none;
+    width: 180px;
+    padding: 10px 20px;
+    margin-top: -40px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d0b07a;
+}
+
+svg{
+    margin: 10px;
+    transition: transform 0.5s ease-in;
+}
+
+svg:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+footer{
+    margin-bottom: -15px;
 }
