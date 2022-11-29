@@ -76,10 +76,6 @@ nav{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.135);
 }
 
-.card{
-    border: none;
-}
-
 .nama-produk{
     position: relative;
     z-index: 2;
@@ -89,6 +85,7 @@ nav{
 
 .produk{
     transition: transform 0.5s ease-in;
+    border: none;
 }
 
 .produk:hover{
@@ -140,4 +137,24 @@ svg:hover{
 
 footer{
     margin-bottom: -15px;
+}
+
+.back{
+    background-color: #d0b07a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 30px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
+}
+
+.icon-back{
+    color: white;
+    padding-top: 1px;
+    padding-left: 1px;
+}
+
+button{
+    border: none;
 }
