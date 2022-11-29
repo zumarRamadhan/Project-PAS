@@ -125,12 +125,12 @@ nav{
     background-color: #d0b07a;
 }
 
-svg{
+.sosmed{
     margin: 10px;
     transition: transform 0.5s ease-in;
 }
 
-svg:hover{
+.sosmed:hover{
     transform: translateY(-7px);
     cursor: pointer;
 }
@@ -147,14 +147,29 @@ footer{
     margin: 30px;
     border: none;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
+    transition: transform 0.5s ease-in;
+}
+
+.back:hover{
+    transform: translateX(-7px);
+    cursor: pointer;
 }
 
 .icon-back{
     color: white;
-    padding-top: 1px;
-    padding-left: 1px;
+    margin: 10px;
 }
 
 button{
     border: none;
+}
+
+.detail-barang{
+    display: flex;
+}
+
+.gambar-barang{
+    width: 400px;
+    height: auto;
+    margin-left: 250px;
 }
